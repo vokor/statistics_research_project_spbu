@@ -3,7 +3,7 @@
 ## Инструкция по запуску
 
 ```
-cd statistics
+cd statistics_research_project_spbu
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
