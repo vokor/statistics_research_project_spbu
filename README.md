@@ -7,7 +7,10 @@ cd statistics_research_project_spbu
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
+python3 app.py
 ```
+Далее перейти по: http://127.0.0.1:8050/
+
 
 ## Описание приложения
 
