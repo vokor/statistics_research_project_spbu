@@ -2,6 +2,7 @@
 
 ## Инструкция по запуску
 
+### Локальный запуск на Linux
 ```
 cd statistics_research_project_spbu
 python3 -m venv venv
@@ -9,6 +10,20 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 python3 app.py
 ```
+
+### Запуск в Docker:
+#### Чтобы запустить приложение:
+```
+docker build -t statistics_research_project .
+docker run -p 8050:8050 statistics_research_project
+```
+#### Чтобы остановить:
+```
+docker ps
+docker stop <CONTAINER ID>
+
+```
+
 Далее перейти по: http://127.0.0.1:8050/
 
 
